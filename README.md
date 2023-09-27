@@ -1,7 +1,6 @@
 # JUtils
 JUtils is a package containing various utility functions i needed now and then, summarized into a single package
-and released, in case someone finds the need to use something. \
-![Visit This on github (if you're not already)](https://github.com/Logogistiks/JUtils)
+and released, in case someone finds the need to use something.
 
 # Table of Contents
 * [JArr](#jarr)

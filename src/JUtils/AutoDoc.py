@@ -3,7 +3,6 @@
 if __name__ == "__main__":
     import os
     from inspect import getmembers, isfunction
-    from json import dumps
 
     #######################################################
 
@@ -31,15 +30,12 @@ if __name__ == "__main__":
         for name, func in funclist:
             dataStruct[foldername][package]["funcs"][name] = func.__doc__
 
-    #print(os.getcwd())
-    #print(dumps(dataStruct, indent=4))
     #######################################################
 
     readme = f"# {foldername}\n"
     modulestart = r"""
 JUtils is a package containing various utility functions i needed now and then, summarized into a single package
-and released, in case someone finds the need to use something. \
-![Visit This on github (if you're not already)](https://github.com/Logogistiks/JUtils)
+and released, in case someone finds the need to use something.
 """.strip()
     readme += modulestart + "\n\n"
 
@@ -62,7 +58,6 @@ Please consider emailing me at: [jan@seifert-online.de](mailto:jan@seifert-onlin
 """.strip()
     readme += moduleend
 
-    #print(readme)
     #######################################################
 
     os.chdir(originalwd)

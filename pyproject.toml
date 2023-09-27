@@ -4,12 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "JUtils"
-version = "2.3"
+version = "1.0"
 authors = [
     { name="Jan Seifert", email="jan@seifert-online.de" },
 ]
 description = "Package containing various utility functions i needed now and then, that i wanted to share"
-readme = "README.md"
+readme = "pypi.md"
 requires-python = ">=3.7"
 classifiers = [
     "Programming Language :: Python :: 3",

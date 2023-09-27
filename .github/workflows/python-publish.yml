@@ -27,7 +27,7 @@ jobs:
         python-version: '3.x'
     - name: Create Documentation
       run: |
-        python -c "import os;print(os.getcwd())"
+        python -c "import os;print(os.listdir())"
         python AutoDoc.py
     - name: Install dependencies
       run: |

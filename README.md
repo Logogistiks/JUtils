@@ -5,13 +5,13 @@ and released, in case someone finds the need to use something.
 **Disclaimer: Please note that the contained functions are very specific and maybe no one will find a use in them.**
 
 # Table of Contents
-    * 1. [JArr](#JUtils.JArr)
-    * 2. [JColors](#JUtils.JColors)
-    * 3. [JConst](#JUtils.JConst)
-    * 4. [JConv](#JUtils.JConv)
-    * 5. [JNum](#JUtils.JNum)
-    * 6. [JOut](#JUtils.JOut)
-    * 7. [JStr](#JUtils.JStr)
+* ![JArr](#JUtils.JArr)
+* ![JColors](#JUtils.JColors)
+* ![JConst](#JUtils.JConst)
+* ![JConv](#JUtils.JConv)
+* ![JNum](#JUtils.JNum)
+* ![JOut](#JUtils.JOut)
+* ![JStr](#JUtils.JStr)
 
 # JArr
 Functions for array analysing and modification.

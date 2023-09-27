@@ -47,7 +47,7 @@ and released, in case someone finds the need to use something.
     for package, info in dataStruct[foldername].items():
         readme += f"# {package}\n{info['doc']}.\n```py\nfrom {foldername}.{package} import *\n```\n\n"
         for func, funcINFO in info["funcs"].items():
-            readme += f"- **{func}**\n```py{funcINFO}.\n```\n"
+            readme += f"- **{func}**\n```py\n{funcINFO}.\n```\n"
 
     moduleend = r"""
 \

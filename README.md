@@ -2,8 +2,6 @@
 JUtils is a package containing various utility functions i needed now and then, summarized into a single package
 and released, in case someone finds the need to use something.
 
-**Disclaimer: Please note that the contained functions are very specific and maybe no one will find a use in them.**
-
 # Table of Contents
 * [JArr](#jarr)
 * [JColors](#jcolors)

@@ -1,1 +1,2 @@
-![Learn more on github](https://github.com/Logogistiks/JUtils)
+Learn more on GitHub:
+https://github.com/Logogistiks/JUtils

@@ -15,11 +15,8 @@ permissions:
     contents: read
 
 jobs:
-    deploy:
-        name: Build and Publish
+    build:
         runs-on: ubuntu-latest
-        permissions:
-            id-token: write
         steps:
             - uses: actions/checkout@v3
             - name: Set up Python
@@ -33,5 +30,10 @@ jobs:
             - name: Build package
               run: |
                   python -m build
+    publish:
+        runs-on: ubuntu-latest
+        permissions:
+            id-token: write
+        steps:
             - name: Publish package
-              uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
+              uses: pypa/gh-action-pypi-publish@release/v1

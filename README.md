@@ -18,7 +18,7 @@ from JUtils.JArr import *
 ```
 
 - **flt2d**
-```
+```py
     Flatten a list of lists into a single list. Only for 2d lists, because the inner items should not be flattened.
     
     Parameters:
@@ -33,7 +33,7 @@ from JUtils.JArr import *
     .
 ```
 - **overlp**
-```
+```py
     Checks if elements in l1 and l2 share any same elements
 
     Parameters:
@@ -45,7 +45,7 @@ from JUtils.JArr import *
     .
 ```
 - **rmap**
-```
+```py
     Apply a sequence of functions to input arguments and yield the results.
 
     Args:
@@ -62,7 +62,7 @@ from JUtils.JArr import *
     .
 ```
 - **segm**
-```
+```py
     Divide a list into sublists of a specified size.
     
     Parameters:
@@ -84,7 +84,7 @@ from JUtils.JColors import *
 ```
 
 - **randColor**
-```Returns a random color
+```pyReturns a random color
     
     Returns:
         tuple: A 3-tuple of integers representing the red, green, and blue components of the color.
@@ -103,7 +103,7 @@ from JUtils.JConv import *
 ```
 
 - **cart2pol**
-```Converts Cartesian coordinates to polar coordinates.
+```pyConverts Cartesian coordinates to polar coordinates.
 
     Args:
         x (float): The x-coordinate.
@@ -114,7 +114,7 @@ from JUtils.JConv import *
     .
 ```
 - **deg2rad**
-```Converts an angle in degrees to radians.
+```pyConverts an angle in degrees to radians.
 
     Parameters:
         deg (float): An angle in degrees.
@@ -124,7 +124,7 @@ from JUtils.JConv import *
     .
 ```
 - **hex2asc**
-```
+```py
     Convert a string of hexadecimal characters to a string of ASCII characters.
     
     Parameters:
@@ -139,7 +139,7 @@ from JUtils.JConv import *
     .
 ```
 - **hex2rgb**
-```
+```py
     Convert a hexadecimal string representation to an RGB tuple.
 
     Parameters:
@@ -154,7 +154,7 @@ from JUtils.JConv import *
     .
 ```
 - **pol2cart**
-```Converts polar coordinates to Cartesian coordinates.
+```pyConverts polar coordinates to Cartesian coordinates.
 
     Args:
         ang (float): An angle in degrees.
@@ -165,7 +165,7 @@ from JUtils.JConv import *
     .
 ```
 - **rad2deg**
-```Converts an angle in radians to degrees.
+```pyConverts an angle in radians to degrees.
 
     Parameters:
         rad (float): An angle in radians.
@@ -175,7 +175,7 @@ from JUtils.JConv import *
     .
 ```
 - **rgb2gray**
-```
+```py
     Converts an RGB color tuple to a grayscale integer value using the luminosity method.
     
     Args:
@@ -187,7 +187,7 @@ from JUtils.JConv import *
     .
 ```
 - **rgb2hex**
-```
+```py
     Convert an RGB tuple to a hexadecimal string representation.
 
     Parameters:
@@ -208,7 +208,7 @@ from JUtils.JNum import *
 ```
 
 - **contain**
-```Clamps a number within a given range.
+```pyClamps a number within a given range.
 
     Parameters:
         n (float): The number to be clamped.
@@ -221,7 +221,7 @@ from JUtils.JNum import *
     .
 ```
 - **sTup2Tup**
-```
+```py
     Turns the given string of a tuple to a tuple object.
 
     Parameters:
@@ -232,7 +232,7 @@ from JUtils.JNum import *
     .
 ```
 - **sgn**
-```Returns the sign of a number.
+```pyReturns the sign of a number.
 
     Parameters:
         n: An int/float number.
@@ -249,14 +249,14 @@ from JUtils.JOut import *
 ```
 
 - **delayPrint**
-```Prints the given string with a slight delay after each character.
+```pyPrints the given string with a slight delay after each character.
 
     Parameters:
         s: A string.
     .
 ```
 - **printn**
-```Prints the given arguments, with newlines before and after (works with multiple args like print)
+```pyPrints the given arguments, with newlines before and after (works with multiple args like print)
     
     Parameters:
         *args: The arguments to print.
@@ -269,7 +269,7 @@ from JUtils.JStr import *
 ```
 
 - **listPath**
-```
+```py
     Just like os.listdir(), but with appended path.
     
     Args:
@@ -280,7 +280,7 @@ from JUtils.JStr import *
     .
 ```
 - **locBrac**
-```
+```py
     Finds the index of the closing bracket that matches the opening bracket at the given index in the given string.
 
     Parameters:
@@ -301,7 +301,7 @@ from JUtils.JStr import *
     .
 ```
 - **multiCenter**
-```
+```py
     Centers the text in a string by padding spaces on either side of each line.
     
     Args:

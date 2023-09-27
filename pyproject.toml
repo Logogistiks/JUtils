@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "JUtils"
-version = "1.0.3"
+version = "2.0"
 authors = [
   { name="Jan Seifert", email="jan@seifert-online.de" },
 ]
@@ -16,3 +16,6 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+
+[project.urls]
+"Homepage" = "https://github.com/Logogistiks/JUtils"

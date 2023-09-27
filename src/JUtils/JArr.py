@@ -75,3 +75,22 @@ def IterComp(a: typing.Iterable, b: typing.Iterable) -> bool | None:
         if a[i] != b[i]:
             return False
     return True
+
+def rmap(funcs: typing.Iterable, *args):
+    """
+    Apply a sequence of functions to input arguments and yield the results.
+
+    Args:
+        funcs (Iterable): An iterable containing functions to be applied.
+        *args: one or more arguments that will be passed to the functions.
+
+    Yields:
+        object: The result of applying each function to the input arguments.
+
+    Example:
+        >>> funcs = [lambda x, y: x * y, lambda x, y: x + y]
+        >>> list(rmap(funcs, 2, 3))
+        [6, 5]
+    """
+    for f in funcs:
+        yield f() if len(args) == 0 else f(*args)

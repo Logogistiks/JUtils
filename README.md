@@ -19,28 +19,6 @@ Functions for array analysing and modification.
 from JUtils.JArr import *
 ```
 
-- **IterComp**
-```
-    Check if 2 iterables of the same length have the same elements, regardless of type.
-
-    Args:
-        a: An iterable object.
-        b: An iterable object.
-
-    Returns:
-        - True if every element in `a` is equal to the corresponding element in `b`.
-        - False if there is at least one pair of non-equal elements in `a` and `b`.
-        - None if the length of `a` and `b` differ.
-
-    Examples:
-        >>> IterComp([1, 2, 3], [1, 2, 3])
-        True
-        >>> IterComp([1, 2, 3], [1, 2, 4])
-        False
-        >>> IterComp([1, 2, 3], [1, 2])
-        None
-    .
-```
 - **flt2d**
 ```
     Flatten a list of lists into a single list. Only for 2d lists, because the inner items should not be flattened.
@@ -66,6 +44,23 @@ from JUtils.JArr import *
 
     Returns:
         bool: if there are any overlaps between l1 and l2
+    .
+```
+- **rmap**
+```
+    Apply a sequence of functions to input arguments and yield the results.
+
+    Args:
+        funcs (Iterable): An iterable containing functions to be applied.
+        *args: one or more arguments that will be passed to the functions.
+
+    Yields:
+        object: The result of applying each function to the input arguments.
+
+    Example:
+        >>> funcs = [lambda x, y: x * y, lambda x, y: x + y]
+        >>> list(rmap(funcs, 2, 3))
+        [6, 5]
     .
 ```
 - **segm**

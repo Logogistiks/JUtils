@@ -48,34 +48,6 @@ def overlp(l1: list, l2: list) -> bool:
     '''
     return bool(set(l1) & set(l2))
 
-def IterComp(a: typing.Iterable, b: typing.Iterable) -> bool | None:
-    """
-    Check if 2 iterables of the same length have the same elements, regardless of type.
-
-    Args:
-        a: An iterable object.
-        b: An iterable object.
-
-    Returns:
-        - True if every element in `a` is equal to the corresponding element in `b`.
-        - False if there is at least one pair of non-equal elements in `a` and `b`.
-        - None if the length of `a` and `b` differ.
-
-    Examples:
-        >>> IterComp([1, 2, 3], [1, 2, 3])
-        True
-        >>> IterComp([1, 2, 3], [1, 2, 4])
-        False
-        >>> IterComp([1, 2, 3], [1, 2])
-        None
-    """
-    if len(a) != len(b):
-        return None
-    for i in range(len(a)):
-        if a[i] != b[i]:
-            return False
-    return True
-
 def rmap(funcs: typing.Iterable, *args):
     """
     Apply a sequence of functions to input arguments and yield the results.

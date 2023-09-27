@@ -1,5 +1,0 @@
-\
-\
-\
-This Package is not under active development, i will update it every now and then if i find a new function to add.
-Please consider emailing me at: [jan@seifert-online.de](mailto:jan@seifert-online.de) if you got any suggestions for improvement.

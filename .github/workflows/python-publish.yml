@@ -26,9 +26,7 @@ jobs:
       with:
         python-version: '3.x'
     - name: Create Documentation
-      run: |
-        ll && ll ..
-        python AutoDoc.py
+      run: python src/JUtils/AutoDoc.py
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip

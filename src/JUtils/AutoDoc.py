@@ -38,7 +38,8 @@ if __name__ == "__main__":
     readme = f"# {foldername}\n"
     modulestart = r"""
 JUtils is a package containing various utility functions i needed now and then, summarized into a single package
-and released, in case someone finds the need to use something.
+and released, in case someone finds the need to use something. \
+![Visit This on github (if you're not already)](https://github.com/Logogistiks/JUtils)
 """.strip()
     readme += modulestart + "\n\n"
 

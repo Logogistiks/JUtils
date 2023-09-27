@@ -5,13 +5,13 @@ and released, in case someone finds the need to use something.
 **Disclaimer: Please note that the contained functions are very specific and maybe no one will find a use in them.**
 
 # Table of Contents
-* ![JArr](#JArr)
-* ![JColors](#JColors)
-* ![JConst](#JConst)
-* ![JConv](#JConv)
-* ![JNum](#JNum)
-* ![JOut](#JOut)
-* ![JStr](#JStr)
+* [JArr](#jarr)
+* [JColors](#jcolors)
+* [JConst](#jconst)
+* [JConv](#jconv)
+* [JNum](#jnum)
+* [JOut](#jout)
+* [JStr](#jstr)
 
 # JArr
 Functions for array analysing and modification.

@@ -17,6 +17,26 @@ Functions for array analysing and modification.
 from JUtils.JArr import *
 ```
 
+- **IterComp**
+```py
+
+    Check if 2 iterables of the same length have the same elements, regardless of type.
+    Args:
+        a: An iterable object.
+        b: An iterable object.
+    Returns:
+        - True if every element in `a` is equal to the corresponding element in `b`.
+        - False if there is at least one pair of non-equal elements in `a` and `b`.
+        - None if the length of `a` and `b` differ.
+    Examples:
+        >>> IterComp([1, 2, 3], [1, 2, 3])
+        True
+        >>> IterComp([1, 2, 3], [1, 2, 4])
+        False
+        >>> IterComp([1, 2, 3], [1, 2])
+        None
+    .
+```
 - **flt2d**
 ```py
 

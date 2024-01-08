@@ -1,6 +1,10 @@
 # JUtils
 JUtils is a package containing various utility functions i needed now and then, summarized into a single package
-and released, in case someone finds the need to use something.
+and released, in case someone finds the need to use something. \
+\
+Install it with the following command: \
+```pip install JUtils``` \
+Or [visit the project on PyPI!](https://pypi.org/project/JUtils)
 
 # Table of Contents
 * [JArr](#jarr)

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "JUtils"
-version = "3.0.3"
+version = "3.0.4"
 authors = [
     { name="Jan Seifert", email="jan@seifert-online.de" },
 ]
